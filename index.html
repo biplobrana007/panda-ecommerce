@@ -18,6 +18,57 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-
+    <!-- header section -->
+    <header class="header-section">
+      <nav class="header-nav md:max-w-[1130px] mx-auto flex flex-col md:flex-row justify-between items-center gap-10 py-12 ">
+        <img src="./images/logo.png" alt="panda logo" class="max-w-full flex-2/12"  />
+        <div class="relative flex flex-5/12">
+          <input
+          type="search"
+          name=""
+          id=""
+          placeholder="Search"
+          class="py-2 px-5 w-full bg-[#f1f1f1] poppins-font text-[16px] font-medium italic rounded-[66px] text-[#cccccc]"
+        />
+        <a href=""><i class="fa-solid fa-magnifying-glass  absolute z-1 right-[10px] top-[12px] text-[#cccccc]"></i></a>
+        </div>
+        <ul
+          class="nav-links poppins-font text-[16px] font-normal text-[#707070] flex flex-col md:flex-row items-center justify-between flex-4/12"
+        >
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="header-banner flex flex-col-reverse md:flex-row items-center justify-between  md:px-12 py-10 px-5 bg-[#feeae9] md:max-w-[1212px] mx-auto md:rounded-2xl">
+        <div class=" flex-8/12 ">
+          <h1 class="poppins-font text-[56px] text-[#1f1f1f] font-bold">Mi LED TV 4A PRO 32</h1>
+          <p class="inter-font text-[16px] font-normal leading-[26px] text-[#4e4e4e] my-10 md:w-[70%]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <span class="poppins-font text-[41px] text-[#ff136f] mb-5 font-medium">$1289</span>
+          <button class="text-white text-[16px] py-4 px-7 flex items-center gap-5 bg-gradient-to-b from-[#ff589b] to-[#ff136f] rounded-[6px]">BUY NOW<span><i class="fa-solid fa-arrow-right"></i></span></button>
+        </div>
+        <div class=" flex md:justify-end justify-center pb-10 md:pb-0">
+          <img src="./images/banner-images/tv.png" alt="" class="max-w-[70%]">
+        </div>
+      </div>
+      <div class="header-category md:max-w-[1130px] mx-auto py-16 px-5 md:px-0">
+        <h3 class="poppins-font text-4xl font-semibold text-[#1f1f1f] mb-7">Categories</h3>
+        <div class="flex justify-between flex-col md:flex-row gap-10 md:gap-0 ">
+          <div class="py-3 px-11 bg-gradient-to-r from-[#ff9c35] to-[#ffd019] text-white text-4xl poppins-font font-medium flex justify-between items-center rounded-xl">
+            <h2>Watch</h2>
+            <img src="./images/categories/watch.png" alt="" class="max-w-[40%]">
+          </div>
+          <div class="py-3 px-11 bg-gradient-to-r from-[#ff589b] to-[#ff136f] text-white text-4xl poppins-font font-medium flex justify-between items-center rounded-xl">
+            <h2>Watch</h2>
+            <img src="./images/categories/bag.png" alt="" class="max-w-[40%]">
+          </div>
+          <div class="py-3 px-11 bg-gradient-to-r from-[#4289ff] to-[#3f07f8] text-white text-4xl poppins-font font-medium flex justify-between items-center rounded-xl">
+            <h2>Watch</h2>
+            <img src="./images/categories/shoes.png" alt="" class="max-w-[40%]">
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
